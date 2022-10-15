@@ -8,7 +8,8 @@
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +28,11 @@
     "vite": "^3.1.8"
   },
   "dependencies": {
+    "@ignite-ui/eslint-config": "*",
+    "@ignite-ui/ts-config": "*",
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

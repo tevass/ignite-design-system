@@ -1,4 +1,3 @@
 node_modules/
-
-# Build dos pacotes
-**/**/dist
+dist
+.turbo
