@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/EST3V4O.png',
     alt: 'Estevão Gabriel',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
