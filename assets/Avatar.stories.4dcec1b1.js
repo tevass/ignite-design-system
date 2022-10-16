@@ -1,0 +1,2 @@
+import{A as t}from"./index.3f8dd9bb.js";import"./index.c67e121d.js";import"./iframe.3ef6e540.js";import"./index.44fff719.js";import"./jsx-runtime.c41a2aba.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/EST3V4O.png",alt:"Estev\xE3o Gabriel"},argTypes:{src:{control:{type:"text"}}}},c={},e={args:{src:void 0}},m=["Primary","WihFallBack"];export{c as Primary,e as WihFallBack,m as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.4dcec1b1.js.map
